@@ -25,6 +25,8 @@ var header = document.createElement("div");
 header.appendChild(flag);
 header.appendChild(text);
 
+//new botton is going to be here
+
 document.getElementsByClassName("container")[0].insertBefore(header, document.getElementsByTagName("div")[1]);
 
     // document.getElementsByTagName("h1")[0].textContent="Player 2 wins!";
